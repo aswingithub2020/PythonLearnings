@@ -1,3 +1,5 @@
+import self
+
 x=5
 y="Hello world"
 print (x)
@@ -77,3 +79,18 @@ myfunc1()
 myfunc2()
 
 print("{Global keyword} Python is " + x)
+
+#DataTypes
+x="String"  # String
+x=10  #int
+x=1.2 #float
+x=["Mango","apple","banana","cherry"] #list
+print(x)
+x=("Mango","apple","banana")  #Tuple
+print(x)
+x = {"apple", "banana", "cherry"} #set
+x.add("Mango")
+x.add("orange")
+print(x)
+
+
